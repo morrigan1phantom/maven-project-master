@@ -5,7 +5,7 @@ package com.example;
  */
 public class Greeter {
 	
-	String myText = "How are you now?";
+	String myText = "How are you now man?";
 
   /**
    * This is a constructor.
