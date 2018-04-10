@@ -5,7 +5,7 @@ package com.example;
  */
 public class Greeter {
 	
-	String newText = "How are you now?";
+	String myText = "How are you now?";
 
   /**
    * This is a constructor.
@@ -16,6 +16,6 @@ public class Greeter {
 
   //TODO: Add javadoc comment
   public String greet(String someone) {
-    return String.format("Hello, %s!", someone + ". " + newText+ "...");
+    return String.format("Hello, %s!", someone + ". " + myText+ "...");
   }
 }
